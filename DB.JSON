@@ -1,0 +1,58 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Wireless Headphones",
+      "price": 59.99,
+      "category": "Electronics",
+      "brand": "Sony",
+      "description": "High-quality wireless headphones with clear sound and long battery life.",
+      "inStock": true
+    },
+    {
+      "id": 2,
+      "name": "Mechanical Keyboard",
+      "price": 89.99,
+      "category": "Electronics",
+      "brand": "Keychron",
+      "description": "Durable mechanical keyboard with responsive keys and comfortable typing.",
+      "inStock": true
+    },
+    {
+      "id": 3,
+      "name": "Smart Watch",
+      "price": 129.99,
+      "category": "Wearables",
+      "brand": "Samsung",
+      "description": "Smart watch with fitness tracking, notifications, and heart rate monitoring.",
+      "inStock": true
+    },
+    {
+      "id": 4,
+      "name": "Running Shoes",
+      "price": 74.99,
+      "category": "Fashion",
+      "brand": "Nike",
+      "description": "Lightweight running shoes designed for daily workouts and jogging.",
+      "inStock": true
+    },
+    {
+      "id": 5,
+      "name": "Travel Backpack",
+      "price": 45.99,
+      "category": "Accessories",
+      "brand": "Adidas",
+      "description": "Spacious backpack with multiple compartments for laptops and daily essentials.",
+      "inStock": false
+    },
+    {
+      "id": 6,
+      "name": "Coffee Maker",
+      "price": 99.99,
+      "category": "Home Appliances",
+      "brand": "Philips",
+      "description": "Easy-to-use coffee maker that prepares fresh coffee quickly.",
+      "inStock": true
+    }
+  ]
+}
