@@ -1,7 +1,13 @@
+'use client'
 import Link from 'next/link';
-import React from 'react';
+import React, { use } from 'react';
+import { UserContex } from '../contexts/UserContext';
 
-const links = <>
+
+const Navbar = () => {
+  const user = use(UserContex)
+  console.log('From contex in navbar', user);
+  const links = <>
         <li><Link href="/">Home</Link></li>
         <li><Link href="/posts">Posts</Link></li>
         <li><Link href="/products">Products</Link></li>
@@ -9,7 +15,6 @@ const links = <>
         <li><Link href="/dashboard">Dashboard</Link></li>
         
 </>
-const Navbar = () => {
     return (
         <div className="navbar bg-base-100 shadow-sm">
   <div className="navbar-start">
